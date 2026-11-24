@@ -27,7 +27,7 @@
         $curso = "PHP";
         $ano = date('Y');
         
-        echo <<< TEXTO
+        echo <<< 'TEXTO'
         <pre>
             eu me chamo $nome,
                     estou estudando 
