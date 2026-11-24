@@ -7,12 +7,19 @@
 </head>
 <body>
     <?php 
+        /*
         $nome = "Pedro";
         $sobrenome = "Benetti";
 
         echo "$nome $sobrenome \u{1F418}";
-        
+
         echo '$nome $sobrenome \u{1F418}';
+        */
+
+        $nome = "Rodrigo";
+        $snome = "Nogueira";
+
+        echo "$nome \"Minotauro\" $snome";
     ?>
 </body>
 </html>
