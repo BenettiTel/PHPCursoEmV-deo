@@ -16,10 +16,23 @@
         echo '$nome $sobrenome \u{1F418}';
         */
 
+        /*
         $nome = "Rodrigo";
         $snome = "Nogueira";
 
         echo "$nome \"Minotauro\" $snome";
+        */
+
+        $nome = "Pedro";
+        $curso = "PHP";
+        $ano = date('Y');
+        
+        echo <<< TEXTO
+        <pre>
+            eu me chamo $nome,
+                    estou estudando 
+                $curso no ano de $ano
+        TEXTO;
     ?>
 </body>
 </html>
