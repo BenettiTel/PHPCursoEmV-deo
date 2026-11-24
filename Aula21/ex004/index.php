@@ -22,6 +22,12 @@
         $Menino = ["Pedro", 20, 1.97, True];
         var_dump($Menino);
         */
+
+        class Pessoa {
+            private string $nome;
+        }
+        $p = new Pessoa;
+        var_dump($p);
     ?>
 </body>
 </html>
