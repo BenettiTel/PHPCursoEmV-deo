@@ -9,7 +9,7 @@
     <?php
         $nome = "Pedro";
         $sobrenome = "Benetti";
-        
+        $nome = "Caleb";
         echo "Muito prazer, $nome $sobrenome";
     ?>
 </body>
