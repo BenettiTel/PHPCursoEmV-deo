@@ -12,8 +12,8 @@
     </header>
     <main>
         <?php
-            $nm = $_GET["nome"];
-            $snm = $_GET["sobrenome"];
+            $nm = $_GET["nome"] ?? "nome";
+            $snm = $_GET["sobrenome"] ?? "desconhecido";
             echo "<p>Prazer em te conhecer <strong>$nm $snm</strong>!";
         ?>
         
