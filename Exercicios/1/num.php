@@ -15,7 +15,10 @@
             echo "<br>Antecessor: " . $num-1;
             echo "<br>Sucessor: " . $num+1;
         ?>
-        <input type="button" value="Voltar" onclick="history.back()">
+        
+        <button onClick="javascript:window.location.href='index.html'">
+            Voltar
+        </button>
     </main>
 </body>
 </html>
