@@ -14,7 +14,7 @@
             $din = $_GET["dinheiro"];
             $cot = 5.83;
             $convert = $din/$cot;
-            echo "Seus R$ $din equivalem à <strong>U$ " . number_format($convert, 2) . "</strong><br>";
+            echo "Seus R$ " . number_format($din, 2, ",", ".") . "equivalem à <strong>U$ " . number_format($convert, 2, ",", ".") . "</strong><br>";
             echo "Seguindo a cotação fixa de R$:1 = U$:$cot";
         ?>
         <input type="button" value="Voltar" onclick="history.back()">
